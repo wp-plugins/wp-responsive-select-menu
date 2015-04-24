@@ -3,7 +3,7 @@ Contributors: vivacityinfotech.jaipur
 Donate link:http://bit.ly/1icl56K
 Tags: Responsive Nav,Responsive Menu,Slidedown Menu,Desktop Layout Menu,Menu,Select Menu,Responsive Navigation
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.2
 Stable tag: 1.0
 License: GPL2
 
