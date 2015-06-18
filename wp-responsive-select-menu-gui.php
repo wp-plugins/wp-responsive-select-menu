@@ -1,7 +1,7 @@
 
 <div class="wrapper">
 	<h2><?php _e( 'WP Responsive Select Menu', 'responsive-menu' ) ?></h2>
-	<div class="container">
+	<div class="wrap">
 		<?php
 			if(isset($_POST['submit'])) 
 			{
@@ -54,6 +54,8 @@
 				<?php
 			}			
 		?>
+		<div class="inner_wrap">
+		<div class="left">		
 		<form action="" method="post">
 			<div class="wpresmenu_form">
 				<h3><?php _e( 'General Setting', 'responsive-menu' ) ?></h3>
@@ -152,5 +154,74 @@
             </table>  				
 			</div>
 		</form>
+		</div>
+		<div class="right">
+		 <center>
+<div class="bottom">
+		    <h3 id="download-comments-wvpd" class="title"><?php _e( 'Download Free Plugins', 'wvpd' ); ?></h3>
+		     
+     <div id="downloadtbl-comments-wvpd" class="togglediv">  
+	<h3 class="company">
+<p> Vivacity InfoTech Pvt. Ltd. is an ISO 9001:2008 Certified Company is a Global IT Services company with expertise in outsourced product development and custom software development with focusing on software development, IT consulting, customized development.We have 200+ satisfied clients worldwide.</p>	
+<?php _e( 'Our Top 5 Latest Plugins', 'wvpd' ); ?>:
+</h3>
+<ul class="">
+<li><a target="_blank" href="https://wordpress.org/plugins/woocommerce-social-buttons/">Woocommerce Social Buttons</a></li>
+<li><a target="_blank" href="https://wordpress.org/plugins/vi-random-posts-widget/">Vi Random Post Widget</a></li>
+<li><a target="_blank" href="http://wordpress.org/plugins/wp-infinite-scroll-posts/">WP EasyScroll Posts</a></li>
+<li><a target="_blank" href="https://wordpress.org/plugins/buddypress-social-icons/">BuddyPress Social Icons</a></li>
+<li><a target="_blank" href="http://wordpress.org/plugins/wp-fb-share-like-button/">WP Facebook Like Button</a></li>
+</ul>
+  </div> 
+</div>		
+<div class="bottom">
+		    <h3 id="donatehere-comments-wvpd" class="title"><?php _e( 'Donate Here', 'wvpd' ); ?></h3>
+     <div id="donateheretbl-comments-wvpd" class="togglediv">  
+     <p><?php _e( 'If you want to donate , please click on below image.', 'wvpd' ); ?></p>
+	<a href="http://bit.ly/1icl56K" target="_blank"><img class="donate" src="<?php echo plugins_url( 'assets/paypal.gif' , __FILE__ ); ?>" width="150" height="50" title="<?php _e( 'Donate Here', 'wvpd' ); ?>"></a>		
+  </div> 
+</div>	
+<div class="bottom">
+		    <h3 id="donatehere-comments-wvpd" class="title"><?php _e( 'Woocommerce Frontend Plugin', 'wvpd' ); ?></h3>
+     <div id="donateheretbl-comments-wvpd" class="togglediv">  
+     <p><?php _e( 'If you want to purchase , please click on below image.', 'wvpd' ); ?></p>
+	<a href="http://bit.ly/1HZGRBg" target="_blank"><img class="donate" src="<?php echo plugins_url( 'assets/woo_frontend_banner.png' , __FILE__ ); ?>" width="336" height="280" title="<?php _e( 'Donate Here', 'wvpd' ); ?>"></a>		
+  </div> 
+</div>
+<div class="bottom">
+		    <h3 id="donatehere-comments-wvpd" class="title"><?php _e( 'Blue Frog Template', 'wvpd' ); ?></h3>
+     <div id="donateheretbl-comments-wvpd" class="togglediv">  
+     <p><?php _e( 'If you want to purchase , please click on below image.', 'wvpd' ); ?></p>
+	<a href="http://bit.ly/1Gwp4Vv" target="_blank"><img class="donate" src="<?php echo plugins_url( 'assets/blue_frog_banner.png' , __FILE__ ); ?>" width="336" height="280" title="<?php _e( 'Donate Here', 'wvpd' ); ?>"></a>		
+  </div> 
+</div>
+	</center>
+</div> <!-- --------End of right div---------- -->
+</div> <!-- --------End of inner_wrap--------- -->
+</div> <!-- ---------End of wrap-------------- -->
+<script type="text/javascript" >
+jQuery(document).ready(function($){
+    //alert('Hello World!');
+  jQuery("#donatehere-comments-wvpd").click(function(){
+      jQuery("#donateheretbl-comments-wvpd").animate({
+        height:'toggle'
+      });
+  }); 
+   jQuery("#download-comments-wvpd").click(function(){
+      jQuery("#downloadtbl-comments-wvpd").animate({
+        height:'toggle'
+      });
+  }); 
+  jQuery("#aboutauthor-comments-wvpd").click(function(){
+      jQuery("#aboutauthortbl-comments-wvpd").animate({
+        height:'toggle'
+      });
+  });
+ 
+});
+
+</script>
+
+		</div>
 	</div>
 </div>

@@ -334,3 +334,6 @@ body.admin-bar #wpresmenu_menu.right {
 	color: #fff;
 	border-radius: 3px;
 }
+.inner_wrap {margin:15px 0;}
+.inner_wrap .left{max-width:65%;width: 65%;float: left;}
+.right {max-width:33%;width: 33%;float: right;}
