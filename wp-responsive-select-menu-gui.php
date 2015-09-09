@@ -223,5 +223,4 @@ jQuery(document).ready(function($){
 </script>
 
 		</div>
-	</div>
-</div>
+ 
